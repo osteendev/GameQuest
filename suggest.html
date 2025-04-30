@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Quest | Suggest a Game</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Suggest a Game</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="suggest.html">Suggest</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h2>Share a game!</h2>
+      <form id="suggestForm">
+        <label for="title">Title:</label>
+        <input type="text" id="title" required>
+        <label for="genre">Genre:</label>
+        <input type="text" id="genre" required>
+        <label for="reason">Why you love it:</label>
+        <textarea id="reason" rows="3" required></textarea>
+        <label for="link">Link (optional):</label>
+        <input type="url" id="link">
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Game Quest. All rights reserved.</p>
+  </footer>
+
+  <script src="js/suggest.js"></script>
+</body>
+</html>
